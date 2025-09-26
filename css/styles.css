@@ -219,20 +219,26 @@ img {
   z-index: 10;
 }
 
-.home__greeting {
+.home__greeting span {
+  color: #fff; /* Make HELLO visible */
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 0.5rem;
   display: block;
-  font-weight: 700;
-  color: #a2acbd;
 }
 
-.home__title {
-  display: block;
-  font-size: 1.5rem;
-  font-weight: 900;
-  color: #e4a109;
-  line-height: 2rem;
-  padding-bottom: 1rem;
-  padding-top: 0.5rem;
+.home__greeting {
+  margin-bottom: 1rem;
+}
+
+.home__title h1 {
+  color: #FFC107; 
+  font-size: 3rem; 
+  font-weight: 700;
+  line-height: 1.1; 
+  margin-bottom: 0.5rem;
+  word-break: break-word;
 }
 
 .home__career {
@@ -656,4 +662,5 @@ img {
   .home__img {
     height: 670px;
   }
+
 }
